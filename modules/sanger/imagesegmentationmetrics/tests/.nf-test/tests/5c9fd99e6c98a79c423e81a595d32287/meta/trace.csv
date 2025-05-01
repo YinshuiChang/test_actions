@@ -1,0 +1,2 @@
+task_id	hash	native_id	name	status	exit	submit	duration	realtime	%cpu	peak_rss	peak_vmem	rchar	wchar
+1	77/b2ba64	2390809	IMAGESEGMENTATIONMETRICS	FAILED	1	2025-03-26 16:09:44.964	174ms	119ms	-	-	-	-	-

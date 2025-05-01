@@ -1,0 +1,36 @@
+ERROR ~ Error executing process > 'IMAGESEGMENTATIONMETRICS'
+
+Caused by:
+  Process `IMAGESEGMENTATIONMETRICS` terminated with an error exit status (1)
+
+
+Command executed:
+
+  export MPLCONFIGDIR=$PWD/matplotlib_cache
+  mkdir -p $MPLCONFIGDIR
+  
+  segmentation_metrics.py run --path_ref ref.tif --path_list_seg "label_removed_10.tif label_removed_20.tif label_removed_50.tif" --list_metrics "DiceMetric MeanIoU GeneralizedDiceScore HausdorffDistanceMetric SurfaceDistanceMetric SurfaceDiceMetric MSEMetric MAEMetric RMSEMetric PSNRMetric sgm_dice sgm_jaccard sgm_precision sgm_recall sgm_fpr sgm_fnr sgm_hd sgm_msd sgm_stdsd" 
+  
+  cat <<-END_VERSIONS > versions.yml
+  IMAGESEGMENTATIONMETRICS:
+      seg-metrics: $(segmentation_metrics.py version)
+  END_VERSIONS
+
+Command exit status:
+  1
+
+Command output:
+  (empty)
+
+Command error:
+  Traceback (most recent call last):
+    File "/lustre/scratch127/cellgen/cellgeni/yc6/modules/modules/nf-core/imagesegmentationmetrics/resources/usr/bin/segmentation_metrics.py", line 3, in <module>
+      import monai.metrics as mmetrics
+  ModuleNotFoundError: No module named 'monai'
+
+Work dir:
+  /lustre/scratch127/cellgen/cellgeni/yc6/modules/modules/nf-core/imagesegmentationmetrics/tests/.nf-test/tests/5c9fd99e6c98a79c423e81a595d32287/work/77/b2ba648f24897f4fe2c645bdc11436
+
+Tip: view the complete command output by changing to the process work dir and entering the command `cat .command.out`
+
+ -- Check '/lustre/scratch127/cellgen/cellgeni/yc6/modules/modules/nf-core/imagesegmentationmetrics/tests/.nf-test/tests/5c9fd99e6c98a79c423e81a595d32287/meta/nextflow.log' file for details

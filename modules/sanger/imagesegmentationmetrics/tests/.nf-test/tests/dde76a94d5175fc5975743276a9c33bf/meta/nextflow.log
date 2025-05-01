@@ -1,0 +1,89 @@
+Mar-26 16:09:46.813 [main] DEBUG nextflow.cli.Launcher - $> nextflow -quiet -log /lustre/scratch127/cellgen/cellgeni/yc6/modules/modules/nf-core/imagesegmentationmetrics/tests/.nf-test/tests/dde76a94d5175fc5975743276a9c33bf/meta/nextflow.log run /lustre/scratch127/cellgen/cellgeni/yc6/modules/modules/nf-core/imagesegmentationmetrics/tests/.nf-test-dde76a94d5175fc5975743276a9c33bf.nf -c /lustre/scratch127/cellgen/cellgeni/yc6/modules/modules/nf-core/imagesegmentationmetrics/tests/nextflow.config -params-file /lustre/scratch127/cellgen/cellgeni/yc6/modules/modules/nf-core/imagesegmentationmetrics/tests/.nf-test/tests/dde76a94d5175fc5975743276a9c33bf/meta/params.json -ansi-log false -with-trace /lustre/scratch127/cellgen/cellgeni/yc6/modules/modules/nf-core/imagesegmentationmetrics/tests/.nf-test/tests/dde76a94d5175fc5975743276a9c33bf/meta/trace.csv -w /lustre/scratch127/cellgen/cellgeni/yc6/modules/modules/nf-core/imagesegmentationmetrics/tests/.nf-test/tests/dde76a94d5175fc5975743276a9c33bf/work -stub
+Mar-26 16:09:46.912 [main] INFO  nextflow.cli.CmdRun - N E X T F L O W  ~  version 24.10.4
+Mar-26 16:09:46.944 [main] DEBUG nextflow.plugin.PluginsFacade - Setting up plugin manager > mode=prod; embedded=false; plugins-dir=/nfs/users/nfs_y/yc6/.nextflow/plugins; core-plugins: nf-amazon@2.9.2,nf-azure@1.10.2,nf-cloudcache@0.4.2,nf-codecommit@0.2.2,nf-console@1.1.4,nf-google@1.15.3,nf-tower@1.9.3,nf-wave@1.7.4
+Mar-26 16:09:46.971 [main] INFO  o.pf4j.DefaultPluginStatusProvider - Enabled plugins: []
+Mar-26 16:09:46.973 [main] INFO  o.pf4j.DefaultPluginStatusProvider - Disabled plugins: []
+Mar-26 16:09:46.978 [main] INFO  org.pf4j.DefaultPluginManager - PF4J version 3.12.0 in 'deployment' mode
+Mar-26 16:09:46.998 [main] INFO  org.pf4j.AbstractPluginManager - No plugins
+Mar-26 16:09:47.032 [main] DEBUG nextflow.config.ConfigBuilder - Found config base: /lustre/scratch127/cellgen/cellgeni/yc6/modules/modules/nf-core/imagesegmentationmetrics/tests/nextflow.config
+Mar-26 16:09:47.039 [main] DEBUG nextflow.config.ConfigBuilder - User config file: /lustre/scratch127/cellgen/cellgeni/yc6/modules/modules/nf-core/imagesegmentationmetrics/tests/nextflow.config
+Mar-26 16:09:47.041 [main] DEBUG nextflow.config.ConfigBuilder - Parsing config file: /lustre/scratch127/cellgen/cellgeni/yc6/modules/modules/nf-core/imagesegmentationmetrics/tests/nextflow.config
+Mar-26 16:09:47.042 [main] DEBUG nextflow.config.ConfigBuilder - Parsing config file: /lustre/scratch127/cellgen/cellgeni/yc6/modules/modules/nf-core/imagesegmentationmetrics/tests/nextflow.config
+Mar-26 16:09:47.079 [main] DEBUG n.secret.LocalSecretsProvider - Secrets store: /nfs/users/nfs_y/yc6/.nextflow/secrets/store.json
+Mar-26 16:09:47.085 [main] DEBUG nextflow.secret.SecretsLoader - Discovered secrets providers: [nextflow.secret.LocalSecretsProvider@40147317] - activable => nextflow.secret.LocalSecretsProvider@40147317
+Mar-26 16:09:47.119 [main] DEBUG nextflow.config.ConfigBuilder - Applying config profile: `standard`
+Mar-26 16:09:47.676 [main] DEBUG nextflow.config.ConfigBuilder - Applying config profile: `standard`
+Mar-26 16:09:47.727 [main] DEBUG nextflow.cli.CmdRun - Enabling module binaries
+Mar-26 16:09:47.730 [main] DEBUG nextflow.cli.CmdRun - Applied DSL=2 from script declaration
+Mar-26 16:09:47.748 [main] INFO  nextflow.cli.CmdRun - Launching `/lustre/scratch127/cellgen/cellgeni/yc6/modules/modules/nf-core/imagesegmentationmetrics/tests/.nf-test-dde76a94d5175fc5975743276a9c33bf.nf` [fabulous_newton] DSL2 - revision: 465c9d3af4
+Mar-26 16:09:47.750 [main] DEBUG nextflow.plugin.PluginsFacade - Plugins default=[]
+Mar-26 16:09:47.751 [main] DEBUG nextflow.plugin.PluginsFacade - Plugins resolved requirement=[]
+Mar-26 16:09:47.818 [main] DEBUG nextflow.Session - Session UUID: b4d041ac-33a8-4740-bf28-995b077513b9
+Mar-26 16:09:47.818 [main] DEBUG nextflow.Session - Run name: fabulous_newton
+Mar-26 16:09:47.819 [main] DEBUG nextflow.Session - Executor pool size: 30
+Mar-26 16:09:47.830 [main] DEBUG nextflow.file.FilePorter - File porter settings maxRetries=3; maxTransfers=50; pollTimeout=null
+Mar-26 16:09:47.837 [main] DEBUG nextflow.util.ThreadPoolBuilder - Creating thread pool 'FileTransfer' minSize=10; maxSize=90; workQueue=LinkedBlockingQueue[10000]; allowCoreThreadTimeout=false
+Mar-26 16:09:47.876 [main] DEBUG nextflow.cli.CmdRun - 
+  Version: 24.10.4 build 5934
+  Created: 20-01-2025 16:47 UTC (16:47 BST)
+  System: Linux 5.15.0-134-generic
+  Runtime: Groovy 4.0.23 on OpenJDK 64-Bit Server VM 11.0.26+4-post-Ubuntu-1ubuntu122.04
+  Encoding: UTF-8 (UTF-8)
+  Process: 2390908@farm22-cgi-01 [172.27.71.112]
+  CPUs: 30 - Mem: 42.5 GB (6.8 GB) - Swap: 0 (0)
+Mar-26 16:09:47.922 [main] DEBUG nextflow.Session - Work-dir: /lustre/scratch127/cellgen/cellgeni/yc6/modules/modules/nf-core/imagesegmentationmetrics/tests/.nf-test/tests/dde76a94d5175fc5975743276a9c33bf/work [lustre]
+Mar-26 16:09:47.924 [main] DEBUG nextflow.Session - Script base path does not exist or is not a directory: /lustre/scratch127/cellgen/cellgeni/yc6/modules/modules/nf-core/imagesegmentationmetrics/tests/bin
+Mar-26 16:09:47.936 [main] DEBUG nextflow.executor.ExecutorFactory - Extension executors providers=[]
+Mar-26 16:09:47.948 [main] DEBUG nextflow.Session - Observer factory: DefaultObserverFactory
+Mar-26 16:09:47.987 [main] DEBUG nextflow.cache.CacheFactory - Using Nextflow cache factory: nextflow.cache.DefaultCacheFactory
+Mar-26 16:09:48.004 [main] DEBUG nextflow.util.CustomThreadPool - Creating default thread pool > poolSize: 31; maxThreads: 1000
+Mar-26 16:09:48.120 [main] DEBUG nextflow.Session - Session start
+Mar-26 16:09:48.124 [main] DEBUG nextflow.trace.TraceFileObserver - Workflow started -- trace file: /lustre/scratch127/cellgen/cellgeni/yc6/modules/modules/nf-core/imagesegmentationmetrics/tests/.nf-test/tests/dde76a94d5175fc5975743276a9c33bf/meta/trace.csv
+Mar-26 16:09:48.599 [main] DEBUG nextflow.script.ScriptRunner - > Launching execution
+Mar-26 16:09:48.857 [main] DEBUG nextflow.plugin.PluginUpdater - Installing plugin nf-amazon version: 2.9.2
+Mar-26 16:09:48.883 [main] INFO  org.pf4j.AbstractPluginManager - Plugin 'nf-amazon@2.9.2' resolved
+Mar-26 16:09:48.884 [main] INFO  org.pf4j.AbstractPluginManager - Start plugin 'nf-amazon@2.9.2'
+Mar-26 16:09:48.935 [main] DEBUG nextflow.plugin.BasePlugin - Plugin started nf-amazon@2.9.2
+Mar-26 16:09:48.954 [main] DEBUG nextflow.file.FileHelper - > Added 'S3FileSystemProvider' to list of installed providers [s3]
+Mar-26 16:09:48.954 [main] DEBUG nextflow.file.FileHelper - Started plugin 'nf-amazon' required to handle file: s3://spatial_demo_datasets/QC/benchmark/ref.tif
+Mar-26 16:09:48.968 [main] DEBUG nextflow.file.FileHelper - Creating a file system instance for provider: S3FileSystemProvider
+Mar-26 16:09:48.989 [main] DEBUG nextflow.cloud.aws.config.AwsConfig - AWS S3 config properties: {anonymous=true, endpoint=https://cog.sanger.ac.uk, s_3_path_style_access=true, max_error_retry=5}
+Mar-26 16:09:49.743 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Mar-26 16:09:49.744 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Mar-26 16:09:49.753 [main] DEBUG nextflow.executor.Executor - [warm up] executor > local
+Mar-26 16:09:49.762 [main] DEBUG n.processor.LocalPollingMonitor - Creating local task monitor for executor 'local' > cpus=30; memory=42.5 GB; capacity=30; pollInterval=100ms; dumpInterval=5m
+Mar-26 16:09:49.766 [main] DEBUG n.processor.TaskPollingMonitor - >>> barrier register (monitor: local)
+Mar-26 16:09:49.965 [main] DEBUG nextflow.Session - Workflow process names [dsl2]: IMAGESEGMENTATIONMETRICS
+Mar-26 16:09:49.966 [main] DEBUG nextflow.Session - Igniting dataflow network (1)
+Mar-26 16:09:49.967 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > IMAGESEGMENTATIONMETRICS
+Mar-26 16:09:49.968 [main] DEBUG nextflow.script.ScriptRunner - Parsed script files:
+  Script_66c9dcfb3d9ba3e2: /lustre/scratch127/cellgen/cellgeni/yc6/modules/modules/nf-core/imagesegmentationmetrics/tests/../main.nf
+  Script_c7f910dbce242d0c: /lustre/scratch127/cellgen/cellgeni/yc6/modules/modules/nf-core/imagesegmentationmetrics/tests/.nf-test-dde76a94d5175fc5975743276a9c33bf.nf
+Mar-26 16:09:49.968 [main] DEBUG nextflow.script.ScriptRunner - > Awaiting termination 
+Mar-26 16:09:49.969 [main] DEBUG nextflow.Session - Session await
+Mar-26 16:09:50.573 [FileTransfer-3] DEBUG nextflow.file.FilePorter - Copying foreign file s3://spatial_demo_datasets/QC/benchmark/label_removed_20.tif to work dir: /lustre/scratch127/cellgen/cellgeni/yc6/modules/modules/nf-core/imagesegmentationmetrics/tests/.nf-test/tests/dde76a94d5175fc5975743276a9c33bf/work/stage-b4d041ac-33a8-4740-bf28-995b077513b9/5d/1fbb8cf73fb638e1df5044d9c1c56a/label_removed_20.tif
+Mar-26 16:09:50.573 [FileTransfer-1] DEBUG nextflow.file.FilePorter - Copying foreign file s3://spatial_demo_datasets/QC/benchmark/ref.tif to work dir: /lustre/scratch127/cellgen/cellgeni/yc6/modules/modules/nf-core/imagesegmentationmetrics/tests/.nf-test/tests/dde76a94d5175fc5975743276a9c33bf/work/stage-b4d041ac-33a8-4740-bf28-995b077513b9/51/5a6d4a0230835212956889248b335d/ref.tif
+Mar-26 16:09:50.573 [FileTransfer-2] DEBUG nextflow.file.FilePorter - Copying foreign file s3://spatial_demo_datasets/QC/benchmark/label_removed_10.tif to work dir: /lustre/scratch127/cellgen/cellgeni/yc6/modules/modules/nf-core/imagesegmentationmetrics/tests/.nf-test/tests/dde76a94d5175fc5975743276a9c33bf/work/stage-b4d041ac-33a8-4740-bf28-995b077513b9/a0/8de3e8a8f62db6ee6b669033553e25/label_removed_10.tif
+Mar-26 16:09:50.573 [FileTransfer-4] DEBUG nextflow.file.FilePorter - Copying foreign file s3://spatial_demo_datasets/QC/benchmark/label_removed_50.tif to work dir: /lustre/scratch127/cellgen/cellgeni/yc6/modules/modules/nf-core/imagesegmentationmetrics/tests/.nf-test/tests/dde76a94d5175fc5975743276a9c33bf/work/stage-b4d041ac-33a8-4740-bf28-995b077513b9/36/7c740a5f90967cc702270f66d33e01/label_removed_50.tif
+Mar-26 16:09:50.607 [FileTransfer-1] DEBUG n.cloud.aws.nio.S3FileSystemProvider - S3 download file from=s3://spatial_demo_datasets/QC/benchmark/ref.tif to=/lustre/scratch127/cellgen/cellgeni/yc6/modules/modules/nf-core/imagesegmentationmetrics/tests/.nf-test/tests/dde76a94d5175fc5975743276a9c33bf/work/stage-b4d041ac-33a8-4740-bf28-995b077513b9/51/5a6d4a0230835212956889248b335d/ref.tif
+Mar-26 16:09:50.607 [FileTransfer-1] DEBUG nextflow.cloud.aws.nio.S3Client - Creating S3 transfer manager pool - chunk-size=104857600; max-treads=10;
+Mar-26 16:09:50.608 [FileTransfer-1] DEBUG nextflow.util.ThreadPoolBuilder - Creating thread pool 'S3TransferManager' minSize=10; maxSize=10; workQueue=LinkedBlockingQueue[10000]; allowCoreThreadTimeout=false
+Mar-26 16:09:50.621 [FileTransfer-3] DEBUG n.cloud.aws.nio.S3FileSystemProvider - S3 download file from=s3://spatial_demo_datasets/QC/benchmark/label_removed_20.tif to=/lustre/scratch127/cellgen/cellgeni/yc6/modules/modules/nf-core/imagesegmentationmetrics/tests/.nf-test/tests/dde76a94d5175fc5975743276a9c33bf/work/stage-b4d041ac-33a8-4740-bf28-995b077513b9/5d/1fbb8cf73fb638e1df5044d9c1c56a/label_removed_20.tif
+Mar-26 16:09:50.622 [FileTransfer-4] DEBUG n.cloud.aws.nio.S3FileSystemProvider - S3 download file from=s3://spatial_demo_datasets/QC/benchmark/label_removed_50.tif to=/lustre/scratch127/cellgen/cellgeni/yc6/modules/modules/nf-core/imagesegmentationmetrics/tests/.nf-test/tests/dde76a94d5175fc5975743276a9c33bf/work/stage-b4d041ac-33a8-4740-bf28-995b077513b9/36/7c740a5f90967cc702270f66d33e01/label_removed_50.tif
+Mar-26 16:09:50.627 [FileTransfer-2] DEBUG n.cloud.aws.nio.S3FileSystemProvider - S3 download file from=s3://spatial_demo_datasets/QC/benchmark/label_removed_10.tif to=/lustre/scratch127/cellgen/cellgeni/yc6/modules/modules/nf-core/imagesegmentationmetrics/tests/.nf-test/tests/dde76a94d5175fc5975743276a9c33bf/work/stage-b4d041ac-33a8-4740-bf28-995b077513b9/a0/8de3e8a8f62db6ee6b669033553e25/label_removed_10.tif
+Mar-26 16:09:50.817 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Mar-26 16:09:50.819 [Task submitter] INFO  nextflow.Session - [50/2e93bd] Submitted process > IMAGESEGMENTATIONMETRICS
+Mar-26 16:09:50.999 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 1; name: IMAGESEGMENTATIONMETRICS; status: COMPLETED; exit: 0; error: -; workDir: /lustre/scratch127/cellgen/cellgeni/yc6/modules/modules/nf-core/imagesegmentationmetrics/tests/.nf-test/tests/dde76a94d5175fc5975743276a9c33bf/work/50/2e93bdd97ca9bf6b5a80c421494959]
+Mar-26 16:09:51.001 [Task monitor] DEBUG nextflow.util.ThreadPoolBuilder - Creating thread pool 'TaskFinalizer' minSize=10; maxSize=90; workQueue=LinkedBlockingQueue[10000]; allowCoreThreadTimeout=false
+Mar-26 16:09:51.047 [main] DEBUG nextflow.Session - Session await > all processes finished
+Mar-26 16:09:51.096 [Task monitor] DEBUG n.processor.TaskPollingMonitor - <<< barrier arrives (monitor: local) - terminating tasks monitor poll loop
+Mar-26 16:09:51.097 [main] DEBUG nextflow.Session - Session await > all barriers passed
+Mar-26 16:09:51.100 [main] DEBUG nextflow.util.ThreadPoolManager - Thread pool 'TaskFinalizer' shutdown completed (hard=false)
+Mar-26 16:09:51.116 [main] DEBUG n.trace.WorkflowStatsObserver - Workflow completed > WorkflowStats[succeededCount=1; failedCount=0; ignoredCount=0; cachedCount=0; pendingCount=0; submittedCount=0; runningCount=0; retriesCount=0; abortedCount=0; succeedDuration=40ms; failedDuration=0ms; cachedDuration=0ms;loadCpus=0; loadMemory=0; peakRunning=1; peakCpus=1; peakMemory=0; ]
+Mar-26 16:09:51.117 [main] DEBUG nextflow.trace.TraceFileObserver - Workflow completed -- saving trace file
+Mar-26 16:09:51.127 [main] DEBUG nextflow.cache.CacheDB - Closing CacheDB done
+Mar-26 16:09:51.146 [main] INFO  org.pf4j.AbstractPluginManager - Stop plugin 'nf-amazon@2.9.2'
+Mar-26 16:09:51.147 [main] DEBUG nextflow.plugin.BasePlugin - Plugin stopped nf-amazon
+Mar-26 16:09:51.148 [main] DEBUG nextflow.util.ThreadPoolManager - Thread pool 'FileTransfer' shutdown completed (hard=false)
+Mar-26 16:09:51.150 [main] DEBUG nextflow.util.ThreadPoolManager - Thread pool 'S3TransferManager' shutdown completed (hard=false)
+Mar-26 16:09:51.150 [main] DEBUG nextflow.script.ScriptRunner - > Execution complete -- Goodbye

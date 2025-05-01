@@ -1,0 +1,2 @@
+task_id	hash	native_id	name	status	exit	submit	duration	realtime	%cpu	peak_rss	peak_vmem	rchar	wchar
+1	50/2e93bd	2391039	IMAGESEGMENTATIONMETRICS	COMPLETED	0	2025-03-26 16:09:50.819	176ms	40ms	76.9%	0	0	340.8 KB	1.8 KB
